@@ -13,7 +13,7 @@ from RLC.capture_chess.environment import Board
 from RLC.capture_chess.learn import Q_learning
 from RLC.capture_chess.agent import Agent
 
-FEN = "k7/p1p1p1p1/1p1p1p1p/8/8/8/8/RNBQKBNR"
+FEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
 
 board = Board(FEN=FEN)
 
